@@ -1055,7 +1055,7 @@ document.getElementById("cityInput").addEventListener("keyup", function (event) 
                                     if (card.querySelector('h3').textContent === city) {
                                         const tempInt = Math.round(weatherData.main.temp);
                                         // Update the card with new weather data
-                                     const timestamp = new Date().toLocaleTimeString();
+                                        const timestamp = new Date().toLocaleTimeString();
                                         card.innerHTML = `
                                             <div class="flex items-center justify-between">
                                                 <div>
